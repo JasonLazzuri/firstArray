@@ -1,0 +1,18 @@
+h1{
+  color:red;
+  text-align: center;
+  text-shadow: 30px;
+}
+
+h2{
+  color:blue;
+  font-weight: 600;
+}
+p{
+  font-family: impact;
+  font-size: 20px;
+}
+li{
+  text-shadow: 10px;
+  color: black;
+}
