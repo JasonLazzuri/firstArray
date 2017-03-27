@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-<link href="css/stylesheet.css"rel="stylesheet"type="text/css"
 <html>
   <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
     <title>My Favorite Things</title>
   </head>
   <body>
-    <h1>Candy</h1>
-      <ol>
-        <img src="img/runt.jpg" alt="runts"/>
-        <li>Runts</li>
-        <img src="img/gob.jpg" alt="gobstopper"/>
-        <li>Gobstoppers</li>
-        <img src="img/nest.jpg" alt="nestlecrunch"/>
-        <li>Nestle Crunch</li>
-      </ol>
-    <h1>People</h1>
-      <ol>
-        <li>Gus</li>
-        <li>Jeanne</li>
-        <li>Yanni</li>
-      </ol>
-    <a href="my-first-webpage2.html">Click on Me to go to my first webpage</a>
+    <div class="container">
+      <form id="info-form">
+        <select class="form-control" id="color">
+          <option>Green</option>
+          <option>Blue</option>
+          <option>Red</option>
+        </select>
+      <form id="info-form">
+        <select class="form-control" id="tv">
+          <option>Dexter</option>
+          <option>Breaking Bad</option>
+          <option>Black Mirror</option>
+        </select>
+      <form id="info-form">
+        <select class="form-control" id= "car">
+          <option>Ferrari</option>
+          <option>Porsche</option>
+          <option>Mustang</option>
+        </select>
+        <button type="submit" class="btn">Click Here:</button>
+      </form>
+      <a href="my-first-webpage2.html">Click on Me to go to my first webpage</a>
+    </div>
   </body>
 </html>
